@@ -1,8 +1,13 @@
 body{
+    /* 
+        It's a good idea to get used to putting images under an /images folder in the project directory. 
+        It'll help you stay organized when you're working with many files. Once you move the file,
+        you'll have to update the link here.
+    */
     background-image: url("bg.jpg");
     /* 
-    Setting the size explicitly in pixels works but might look differently on different devices. 
-    You can try setting background-size to be cover or contain for a more responsive web page
+        Setting the size explicitly in pixels works but might look differently on different devices. 
+        You can try setting background-size to be cover or contain for a more responsive web page
     */
     background-size: 1067px 853px;
 }
